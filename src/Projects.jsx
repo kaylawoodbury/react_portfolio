@@ -3,16 +3,16 @@ import axios from "axios";
 
 class Projects extends Component {
   state = {
-    projects: [
-      componentDidMount() {
-        axios.get('./src/data/projects.json')
-          .then(response => {
-            this.setState({
-              projects: response.data
-            })
-          })
-      }
-    ]
+    projects: []
+  };
+  
+  componentDidMount() {
+    axios.get('./src/data/projects.json')
+      .then(response => {
+        this.setState({
+          projects: response.data
+        })
+      })
   };
 
   render() {
