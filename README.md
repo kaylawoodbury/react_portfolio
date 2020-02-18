@@ -1,5 +1,5 @@
-# ATM Challenge
-Code pairing: *Kayla Woodbury*, *Karolina Frostare*
+# Portfolio Challenge with React
+Author: *Kayla Woodbury*
 
 ## Code overview
 This code builds the framework for my portfolio. The goal is to have a web application that displays information about myself and the projects I have worked on.
@@ -9,6 +9,7 @@ This code builds the framework for my portfolio. The goal is to have a web appli
 ## Dependencies
 
 * React
+* Yarn
 
 ## Setup
 To access this code visit [GitHub](https://github.com/kaylawoodbury/react_portfolio) repo and complete the following steps:
