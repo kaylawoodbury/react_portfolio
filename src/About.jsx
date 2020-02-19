@@ -5,7 +5,7 @@ import { UndrawDesignerLife } from "react-undraw-illustrations";
 const About = () => {
   return (
     <div className="ui main container">
-      
+      <img class="ui fluid image" src="/src/data/images/overview_pic.JPG"></img>
       <div class="ui stackable two column grid">
         <div class="column">
           <UndrawDesignerLife primaryColor='#12283a' height='200px' />
