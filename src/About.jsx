@@ -31,7 +31,7 @@ const About = () => {
           <p>Afterwards I went on to work as a consultant/database manager for 4 years. During that time I used SQL to build and manipulate data in a relational database. In this role I worked with oil and gas companies to import/manage their data, generate reports and calculate greenhouse gas emissions for EPA reporting.</p><br/> 
 
             <p>More recently, I have been attending a full stack coding immersive in Stockholm called Craft Academy. The primary languages we have worked with so far are Ruby and Javascript. We have also worked the the framework Rails and the javascript library React. Mixed with these, we have used HTML and CSS for styling and user veiwing.</p><br/>
-            <p>For a full resume please click here</p>
+            <p>For a full resume please click the link below:</p><div className="link" class="ui button"><a href=""> Resume</a></div>
         </div>
       </div>
 
