@@ -34,6 +34,7 @@ class Projects extends Component {
       <div className="ui main container"> 
       <div>     
         <h1 className="ui header"> My Projects </h1>
+        <h1 className="ui header"> Projects </h1><br/><br/>
         <div className="ui stackable four column grid">{projectsList}</div>
         </div> 
       </div>
