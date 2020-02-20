@@ -8,18 +8,18 @@ const Hello = () =>
         <div className="background">
           <div className="title">
             <h1 id="hello">Hi, I'm Kayla Woobury</h1>
-            <p>I am 
+            <p>A
               <Typical
                 loop={Infinity}
-                wrapper='n'
+                wrapper='i'
                 steps={[
-                  ' an aspiring front end developer',
+                  'n aspiring front end developer',
                   2000,
-                  ' an aspiring back end developer',
+                  'n aspiring back end developer',
                   2000,
-                  ' a nature enthusiast',
+                  ' nature enthusiast',
                   2000,
-                  ' a traveller',
+                  ' traveller',
                   2000
                 ]}
               />
