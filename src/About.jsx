@@ -52,7 +52,7 @@ const About = () => {
           <img src="/src/data/images/climbing.JPG"/>
           <img src="/src/data/images/baking.JPG"/>
           <img src="/src/data/images/pets.JPG"/>
-        </div>   
+        </div> <br/>  <br/> <br/> <br/> 
 
     </div>
   );
