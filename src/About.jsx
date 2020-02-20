@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="ui main container">
       <img class="ui fluid image" src="/src/data/images/overview_pic.JPG"></img>
-      <h1 className="ui header">About Me</h1>
+      <h1 className="ui header">About</h1>
       
       <h3 className="ui dividing header">General</h3>
       <div class="ui stackable two column grid">
