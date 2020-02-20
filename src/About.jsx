@@ -10,9 +10,9 @@ const About = () => {
         <div class="column">
           
           <h1 className="ui header">About Me</h1>
-          <h3 className="ui dividing header">Background</h3>
-          <p>Originally from the beautiful Rocky Mountain front range in Colorado, I have been jumping locations from Boston to Berlin until landing in Stockholm.</p><br/>
-          <p>I try to live a mostly whole food plant based diet and have been working systematically to inact life habits and changes to migate my environmental impact and live as sustainably as possible.</p><br/>
+          <h3 className="ui dividing header">General</h3>
+          <p>Originally from the beautiful Rocky Mountain front range in Colorado, I have been jumping locations from Boston to Berlin until landing in Stockholm during fall of 2019.</p><br/>
+          <p>I try to live a mostly whole food plant based diet and have been working systematically to inact life habits and changes to migate my environmental impact.</p><br/>
           <h3 className="ui dividing header">Profession and Skill-set</h3>
           <p>I obtained a BS in Geological Engineering from Colorado School of Mines with a minor in Public Affairs. This degree included the fundamental engineering courses along with experience using modelling software such as GIS and Solidworks.</p><br/>
           

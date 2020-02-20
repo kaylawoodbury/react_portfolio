@@ -2,18 +2,21 @@
   {
     "id": 1,
     "name": "Ruby: ATM Machine",
+    "link": "https://github.com/kaylawoodbury/atm_challenge_2019",
     "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
     "description": "This was my first project. I used Ruby to build the backend functionality of an ATM machine."
   },
   {
     "id": 2,
     "name": "Ruby: Library",
+    "link": "https://github.com/kaylawoodbury/library-challenge",
     "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
     "description": "This was my second project exploring Ruby. I build a virtual library where users can 'checkout' books from a collection in the local ymal file."
   },
   {
     "id": 3,
     "name": "Rails: AUT Challenge",
+    "link": "https://github.com/kaylawoodbury/rails-app",
     "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
     "description": "This was my first dive into using a framework, specifically Ruby on Rails."
   }

@@ -10,7 +10,7 @@ const Hello = () =>
             <h1 id="hello">Hi, I'm Kayla Woobury</h1>
             <p>A
               <Typical
-                loop={Infinity}
+                loop={3}
                 wrapper='i'
                 steps={[
                   'n aspiring front end developer',
