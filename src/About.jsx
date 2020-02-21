@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="ui main container">
       <img class="ui fluid image" src="/src/data/images/overview_pic.JPG"></img>
-      <h1 className="ui header">About</h1>
+      <h1 className="ui header" id="about-header">About</h1>
       
       <h3 className="ui dividing header">General</h3>
       <div class="ui stackable two column grid">
@@ -30,8 +30,8 @@ const About = () => {
           
           <p>Afterwards I went on to work as a consultant/database manager for 4 years. During that time I used SQL to build and manipulate data in a relational database. In this role I worked with oil and gas companies to import/manage their data, generate reports and calculate greenhouse gas emissions for EPA reporting.</p><br/> 
 
-            <p>More recently, I have been attending a full stack coding immersive in Stockholm called Craft Academy. The primary languages we have worked with so far are Ruby and Javascript. We have also worked the the framework Rails and the javascript library React. Mixed with these, we have used HTML and CSS for styling and user veiwing.</p><br/>
-            <p>For a full resume please click the link below:</p><div className="link" class="ui button"><a href=""> Resume</a></div>
+          <p>More recently, I have been attending a full stack coding immersive in Stockholm called Craft Academy. The primary languages we have worked with so far are Ruby and Javascript. We have also worked the the framework Rails and the javascript library React. Mixed with these, we have used HTML and CSS for styling and user veiwing.</p><br/>
+          <p>For a full resume please click the link below:</p><div className="link" class="ui button"><a href=""> Resume</a></div>
         </div>
       </div>
 
@@ -42,18 +42,17 @@ const About = () => {
           <li>Skiing</li>
           <li>Bullet Journaling</li>
           <li>Camping</li>
-            <li>Reading (mostly non-fiction books and articles)</li>
-            <li>Cross stitching</li>
-            <li>Playing the board game GLoomhaven</li>
-            <li>Rock Climbing</li>
+          <li>Reading (mostly non-fiction books and articles)</li>
+          <li>Cross stitching</li>
+          <li>Playing the board game GLoomhaven</li>
+          <li>Rock Climbing</li>
           </ul>
         <p>There are always new skills, activities or knowledge to learn. Approaching life with an openess to explore and grow, in sometimes tangential ways, has helped me find passions and experiences I never would have found otherwise.</p>
         <div class="ui medium rounded images">
           <img src="/src/data/images/climbing.JPG"/>
           <img src="/src/data/images/baking.JPG"/>
           <img src="/src/data/images/pets.JPG"/>
-        </div> <br/>  <br/> <br/> <br/> 
-
+        </div> <br/><br/><br/><br/> 
     </div>
   );
 };
