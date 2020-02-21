@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Craft Academy",
+    "link": "https://craftacademy.se/english/",
+    "image": "/src/data/images/atm.jpg",
+    "description": "",
+    "time": "Jan 2020 - April 2020"
+  },
+  {
+    "id": 2,
+    "name": "Intelex Technologies",
+    "link": "https://www.intelex.com/products/environment",
+    "image": "/src/data/images/book.png",
+    "description": "",
+    "time": "Jul 2016 - Jul 2019"
+  },
+  {
+    "id": 2,
+    "name": "Ecocion",
+    "link": "https://www.intelex.com/about/press-room/intelex-acquires-ecocion-environmental-solutions",
+    "image": "/src/data/images/book.png",
+    "description": "",
+    "time": "Jun 2015 - Jul 2016"
+  },
+  {
+    "id": 3,
+    "name": "Dinosaur Rdige",
+    "link": "https://dinoridge.org/",
+    "image": "/src/data/images/allosuarus.jpg",
+    "description": "",
+    "time": "May 2012 - May 2015"
+  },
+  {
+    "id": 4,
+    "name": "Colorado School of Mines",
+    "link": "https://www.mines.edu/",
+    "image": "/src/data/images/mines.jpg",
+    "description": "",
+    "time": "August 2011 - May 2015"
+  }
+]
