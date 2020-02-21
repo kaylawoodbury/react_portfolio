@@ -5,7 +5,8 @@
     "link": "https://craftacademy.se/english/",
     "image": "/src/data/images/atm.jpg",
     "description": "Attended full stack development bootcamp.",
-    "time": "Jan 2020 - April 2020"
+    "time": "Jan 2020 - April 2020",
+    "title": "Student"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "link": "https://www.intelex.com/products/environment",
     "image": "/src/data/images/book.png",
     "description": "Worked with SQL to import, organize and manipulate client data into a relational database.",
-    "time": "Jul 2016 - Jul 2019"
+    "time": "Jul 2016 - Jul 2019",
+    "title": "Consultant"
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "link": "https://www.intelex.com/about/press-room/intelex-acquires-ecocion-environmental-solutions",
     "image": "/src/data/images/book.png",
     "description": "Ecocion was acquired by Intelex, held the same job here as at Intelex.",
-    "time": "Jun 2015 - Jul 2016"
+    "time": "Jun 2015 - Jul 2016",
+    "title": "Associate Consultant"
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "link": "https://dinoridge.org/",
     "image": "/src/data/images/allosuarus.jpg",
     "description": "Worked as an educational tour guide and helped where needed to maintain the geologic gems of the ridge.",
-    "time": "May 2012 - May 2015"
+    "time": "May 2012 - May 2015",
+    "title": "Educational Tour Guide"
   },
   {
     "id": 4,
@@ -37,6 +41,7 @@
     "link": "https://www.mines.edu/",
     "image": "/src/data/images/mines.jpg",
     "description": "Graduated with a BS in Geological Engineering and a Minor in Public Affairs",
-    "time": "August 2011 - May 2015"
+    "time": "August 2011 - May 2015",
+    "title": "Student"
   }
 ]
