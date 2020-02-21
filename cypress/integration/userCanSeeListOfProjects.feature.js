@@ -7,24 +7,27 @@ describe('User can see list of projects', () => {
   it('displays first project', () => {
     cy.get('#project-1').within(() => {
       cy.get(('.image')).should('exist');
-      cy.get('.ui.header').should('contain', 'My First Website');
-      cy.get('.description').should('contain', 'This was my first project. The guy lost, but won the popular vote!');
+      cy.get('.ui.header').should('contain', 'ATM Machine');
+      cy.get('.description').should('contain', 'first project. I used Ruby');
+      cy.get('.link').should('exist');
     })
   });
 
   it('displays second project', () => {
     cy.get('#project-2').within(() => {
       cy.get(('.image')).should('exist');
-      cy.get('.ui.header').should('contain', 'UI Design');
-      cy.get('.description').should('contain', 'Designing user interfaces is fun. I want to learn more about that...');
+      cy.get('.ui.header').should('contain', 'Library');
+      cy.get('.description').should('contain', 'second project exploring Ruby');
+      cy.get('.link').should('exist');
     })
   });
 
   it('displays third project', () => {
     cy.get('#project-3').within(() => {
       cy.get(('.image')).should('exist');
-      cy.get('.ui.header').should('contain', 'Mobile UX');
-      cy.get('.description').should('contain', "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.");
+      cy.get('.ui.header').should('contain', 'AUT Challenge');
+      cy.get('.description').should('contain', "first dive into using a framework");
+      cy.get('.link').should('exist');
     })
   });  
 });
