@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
-import CVCard from "./CVCard";
+import JobCard from "./JobCard";
 
-class CV extends Component {
+class Cv extends Component {
   state = {
     cv: []
   };
@@ -24,7 +24,7 @@ class CV extends Component {
       cvList = cv.map(cv => {
         return (
           <div id={'cv-' + cv.id} key={cv.id}>
-            <CVCard cv={cv} />
+            <JobCard cv={cv} />
           </div>
         );
       });
@@ -34,12 +34,12 @@ class CV extends Component {
       <div className="ui main container"> 
       <div>     
         <h1 className="ui header" id="cv-header">CV</h1>
-        <h1 className="ui header" id="projects-header">Projects</h1><br/><br/>
-        <div className="ui stackable 1 column grid">{projectsList}</div>
+        <h1 className="ui header" id="cv-header">CV</h1><br/><br/>
+        <div className="ui stackable 1 column grid">{cvList}</div>
         </div> 
       </div>
     );
   }
 }
 
-export default Projects;
+export default Cv;
