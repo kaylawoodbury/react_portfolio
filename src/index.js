@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
-import Cv from "./Cv";
+import Cv from "./CV";
 import Contact from "./Contact";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./data/particles";

@@ -34,7 +34,7 @@ class Cv extends Component {
       <div className="ui main container"> 
       <div>     
         <h1 className="ui header" id="projects-header">CV</h1><br/><br/>
-        <div className="ui stackable four column grid">{cvList}</div><br/><br/><br/><br/><br/><br/>
+        <div className="ui stackable two column grid">{cvList}</div><br/><br/><br/><br/><br/><br/>
         </div> 
       </div>
     );
