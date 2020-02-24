@@ -13,7 +13,7 @@
     "name": "Intelex Technologies",
     "link": "https://www.intelex.com/products/environment",
     "image": "/src/data/images/Intelex.jpg",
-    "description": "Worked with SQL to import, organize and manipulate client data into a relational database.",
+    "description": "Worked with SQL to import, organize and manipulate client data in a relational database.",
     "time": "Jul 2016 - Jul 2019",
     "title": "Consultant"
   },
@@ -40,7 +40,7 @@
     "name": "Colorado School of Mines",
     "link": "https://www.mines.edu/",
     "image": "/src/data/images/mineslogo.jpg",
-    "description": "Graduated with a BS in Geological Engineering and a Minor in Public Affairs",
+    "description": "Graduated with a BS in Geological Engineering and a Minor in Public Affairs.",
     "time": "August 2011 - May 2015",
     "title": "Student"
   }
