@@ -8,23 +8,23 @@ class Cv extends Component {
   };
 
   componentDidMount() {
-    axios.get('./src/data/cv.json')
+    axios.get('./src/data/cvs.json')
       .then(response => {
         this.setState({
           cv: response.data
-        })
-      })
-  };
+        });
+      });
+  }
 
   render() {
     const cv = this.state.cv;
     let cvList;
 
     if (cv.length > 0) {
-      cvList = cv.map(cv => {
+      cvList = cv.map(cvs => {
         return (
-          <div id={'cv-' + cv.id} key={cv.id}>
-            <JobCard cv={cv} />
+          <div id={'cv' + cvs.id} key={cvs.id}>
+            <JobCard cvs={cvs} />
           </div>
         );
       });
@@ -33,9 +33,8 @@ class Cv extends Component {
     return (
       <div className="ui main container"> 
       <div>     
-        <h1 className="ui header" id="cv-header">CV</h1>
-        <h1 className="ui header" id="cv-header">CV</h1><br/><br/>
-        <div className="ui stackable 1 column grid">{cvList}</div>
+        <h1 className="ui header" id="projects-header">CV</h1><br/><br/>
+        <div className="ui stackable four column grid">{cvList}</div><br/><br/><br/><br/><br/><br/>
         </div> 
       </div>
     );

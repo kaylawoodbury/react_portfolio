@@ -1,17 +1,18 @@
 import React from "react";
 
-const JobCard = ({cv}) => {
+const JobCard = ({cvs}) => {
   return (
     <>
     <br/>
     <div id="JobCard" className="ui raised very padded text container segment">
       <div class="content">
-        <div class="ui top left attached label">{cv.time}</div>
-        <a class="image" href={cv.image}>
-          <img class="right floated mini ui image" src={cv.image}></img>
+        <div class="ui top left attached label">{cvs.time}</div>
+        <a class="image"  href={cvs.link}>
+          <img class="right floated tiny ui image" src={cvs.image}></img>
         </a>
-        <h2 class="ui header">{cv.title} at {cv.name}</h2>
-        <div class="description">{cv.description}</div>
+        <h2 class="ui header">{cvs.title} at {cvs.name}</h2>
+        <p class="description">{cvs.description}</p>
+        
       </div>
     </div>
     </>
