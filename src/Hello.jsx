@@ -9,7 +9,7 @@ const Hello = () =>
         <div className="background">
           <div className="title">
             <h1 id="hello">Hi, I'm Kayla Woobury</h1>
-            <p>An aspiring full stack developer.
+            <p>Full stack developer.
             
             </p>
           </div>

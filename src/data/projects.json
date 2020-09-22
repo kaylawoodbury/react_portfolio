@@ -1,23 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Ruby: ATM Machine",
-    "link": "https://github.com/kaylawoodbury/atm_challenge_2019",
-    "image": "/src/data/images/atm.jpg",
-    "description": "This was my first project. I used Ruby to build the backend functionality of an ATM machine."
+    "name": "Client Website: Sage Woods",
+    "link": "",
+    "link2": "",
+    "image": "/src/data/images/sagewoods.jpeg",
+    "description": "In Progress"
   },
   {
     "id": 2,
-    "name": "Ruby: Library",
-    "link": "https://github.com/kaylawoodbury/library-challenge",
-    "image": "/src/data/images/book.png",
-    "description": "This was my second project exploring Ruby. I build a virtual library where users can 'checkout' books from a collection in the local ymal file."
+    "name": "Bootcamp project: CoPing",
+    "link": "https://github.com/kaylawoodbury/co_ping_mobile",
+    "link2":"https://co-ping.netlify.app/",
+    "image": "/src/data/images/coping.png",
+    "description": "A mobile application to connect neighbors within a community."
   },
   {
     "id": 3,
-    "name": "Rails: AUT Challenge",
-    "link": "https://github.com/kaylawoodbury/rails-app",
-    "image": "/src/data/images/rails.jpg",
-    "description": "This was my first dive into using a framework, specifically Ruby on Rails."
+    "name": "Bootcamp project: Newsroom",
+    "link": "https://github.com/kaylawoodbury/newsroom_1_client_news_site",
+    "link2":"",
+    "image": "/src/data/images/newsroom.png",
+    "description": "Includes functionality for weather, changing the language, storing images on AWS, subscription payments and separate interfaces for customers and employees."
+  },
+  {
+    "id": 4,
+    "name": "Bootcamp project: Slowfood",
+    "link": "https://github.com/kfrostare-Foodbaby/slowfood-client-team-1",
+    "link2":"https://slowfood-team1.netlify.app/",
+    "image": "/src/data/images/foodbaby.png",
+    "description": "Includes functionality for creating orders tied to the signed in user, registering users, and locking functionaility to signed in users. Note: styling not applied to deployed site."
   }
 ]
