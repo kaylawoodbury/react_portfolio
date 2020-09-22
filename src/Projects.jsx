@@ -32,10 +32,10 @@ class Projects extends Component {
 
     return (
       <div className="ui main container"> 
-      <div>     
+      <div id="projects">     
         <h1 className="ui header" id="projects-header">Projects</h1>
         <h1 className="ui header" id="projects-header">Projects</h1><br/><br/>
-        <div className="ui stackable four column grid">{projectsList}</div>
+        <div className="ui five column grid">{projectsList}</div>
         </div> 
       </div>
     );
